@@ -298,12 +298,13 @@ else
                 $Label = 'question-'.$QuestionNo.'-answers-'.$Letter;
                  ?>
             <div class="form">
-                <input type="radio" name="answers[<?php echo $QuestionNo; ?>]" id="<?php echo $Label; ?>" value="<?php echo $Letter; ?>" />
+                <input type="radio" name="answers[<?php echo $QuestionNo; ?>]" id="<?php echo $Label; ?>" value="<?php echo $Letter; ?>" required/>
                 <label for="<?php echo $Label; ?>"><?php echo $Letter; ?>) <?php echo $Answer; ?> </label>
             
             <?php } ?>
 
         <?php } ?>
+        echo "<br>
         <input type="submit" value="View Results" href="questions.php"/>
         </form>
     <?php 
