@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),url("../image/brain-reflection-spirit-grey-matter.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container
+{
+    width: auto;
+    height: auto;
+}
+.jumbotron{
+    height: 30%;
+    width:60%;
+    background:transparent;
+    border: thin solid;
+    border-color: white;
+    margin-top: 20%;
+    margin-left: 20%;
+    box-shadow: teal;
+    text-size-adjust: 20%;
+
+}
+
+h1
+{
+    color: #fff;
+    margin-left: 0%;
+}
+

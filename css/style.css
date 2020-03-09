@@ -1,0 +1,31 @@
+*
+{
+   margin: 0;
+   padding: 0;
+
+}
+.wallpaper
+{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url("../images/index.jpg");
+    background-size: cover;
+    width: 100%;
+}
+body{
+   background-image: url("../image/Id.jpeg");
+   background-size: cover;
+   background-attachment: fixed;
+   font-size: small;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: whitesmoke;
+
+}
+@media screen and (min-width: 480px) {
+   #leftsidebar {width: 500px; float: left;}
+   #main {margin-left: 216px;}
+}
+h3{
+font-size: small;
+}
+.container{
+   box-sizing: border-box;
+}
