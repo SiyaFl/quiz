@@ -11,21 +11,55 @@
     width: 100%;
 }
 body{
-   background-image: url("../image/Id.jpeg");
+   background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url("../image/Id.jpeg");
    background-size: cover;
    background-attachment: fixed;
-   font-size: small;
+   font-size: large;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    color: whitesmoke;
+   text-align: left;
+}
+
+h3{
+font-size: large;
+ border: 3px solid transparent;
+  border-radius: 7px;
+}
+.header {
+   padding: 60px;
+   text-align: center;
+   background:transparent;
+   color: white;
+   font-size: 30px;
+   border:thick solid;
+   width:50%;
+   height: 70%;
+   margin-left: 25%;
+
+ }
+.container{
+   box-sizing: border-box;
+   
+}
+input[type=submit]{
+   border: none;
+   padding: 10px 40px 10px 40px;
+   background-color: brown;
+   color: white;
+   margin-left: 3%;
+   margin-right: 3%;
+   margin-bottom: 3%;
+   margin-top: 1%;
+}
+
+input[type = radio]{
+   margin: 0.5%;
+   margin-left:left;
+   margin-right: left;
+
 
 }
 @media screen and (min-width: 480px) {
    #leftsidebar {width: 500px; float: left;}
    #main {margin-left: 216px;}
-}
-h3{
-font-size: small;
-}
-.container{
-   box-sizing: border-box;
 }

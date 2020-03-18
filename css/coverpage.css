@@ -7,7 +7,7 @@
 
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),url("../image/brain-reflection-spirit-grey-matter.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),url("../image/kasi.jpeg");
     
     background-size: cover;
     background-position: center;
@@ -24,8 +24,8 @@ body{
     height: 30%;
     width:60%;
     background:transparent;
-    border: thin solid;
-    border-color: white;
+    border: thick solid;
+    border-color:burlywood;
     margin-top: 20%;
     margin-left: 20%;
     box-shadow: teal;
